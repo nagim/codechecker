@@ -9,9 +9,9 @@ Static Analyzer](http://clang-analyzer.llvm.org) toolchain, replacing
 [`scan-build`](http://clang-analyzer.llvm.org/scan-build.html) in a Linux or
 macOS (OS X) development environment.
 
-![Web interface showing list of analysed projects and bugs](docs/images/buglist.png)
+![Web interface showing list of analysed projects and bugs]images/buglist.png)
 
-![Web interface for viewing discovered defects in the source code](docs/images/viewer.png)
+![Web interface for viewing discovered defects in the source code]images/viewer.png)
 
 
 Main features
@@ -43,7 +43,7 @@ Main features
     server-client communication used for storing and querying of discovered
     defects
   * Support for multiple bug visualisation frontends, such as the web
-    application, a [command-line tool](docs/usage.md) and an
+    application, a [command-line tool]usage.md) and an
     [Eclipse plugin](http://github.com/Ericsson/CodeCheckerEclipsePlugin)
 
 
@@ -62,7 +62,7 @@ Install
 
 ### Linux
 
-For a detailed dependency list, please see [Requirements](docs/deps.md). The
+For a detailed dependency list, please see [Requirements](deps.md). The
 following commands are used to bootstrap CodeChecker on Ubuntu 16.04.1 LTS:
 
 ~~~{.sh}
@@ -244,13 +244,13 @@ If you have Clang `3.7` installed you might see the following warning message:
 Developer Documentation
 -----------------------
 
-  * [Requirements, external source dependencies](docs/deps.md)
-  * [Architecture overview](docs/architecture.md)
-  * [Package layout](docs/package_layout.md)
-  * [Checker documentation](docs/checker_docs.md)
+  * [Requirements, external source dependencies]deps.md)
+  * [Architecture overview]architecture.md)
+  * [Package layout]package_layout.md)
+  * [Checker documentation]checker_docs.md)
   * [Thrift interface](api/README.md)
   * [Package and integration tests](tests/README.md)
-  * [Database schema migration](docs/db_schema_guide.md)
+  * [Database schema migration]db_schema_guide.md)
   * A high-level overview about the infrastructure is available amongst the
     [2015Euro LLVM Conference](http://llvm.org/devmtg/2015-04) presentations.<br/>
     **Dániel KRUPP, György ORBÁN, Gábor HORVÁTH and Bence BABATI**:<br/>
