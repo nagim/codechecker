@@ -4,6 +4,10 @@
 			"summary": "summary.md"
 	},
 
-	"root": "/docs"
+	"root": "/docs",
+
+	"plugins": [
+		"theme-official"
+	]
 
 }

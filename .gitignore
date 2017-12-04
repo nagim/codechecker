@@ -33,3 +33,7 @@ tests/projects/objc/DeallocUseAfterFreeErrors
 
 # vim temporary swap for open files
 *.swp
+
+# gitbook files
+_book
+node_modules
