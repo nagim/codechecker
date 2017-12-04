@@ -51,7 +51,7 @@ cat ./compilation.json
   retry to log your build.
   
 * Make sure that the `CC_LOGGER_GCC_LIKE` environment variable is set correctly and contains your compilers. 
-  For detailed description see the [user guide](/docs/user_guide.md#1-log-mode).
+  For detailed description see the [user guide]user_guide.md#1-log-mode).
 
 * MacOS users need `intercept-build` to be available on the system, 
   and in most cases, _System Integrity Protection_ needs to be turned off. 
@@ -140,7 +140,7 @@ The URL is in `PRODUCT_URL` format:
 `[http[s]://]host:port/ProductEndpoint`
 Please note that if you start the server in secure mode (with SSL) you will need to use the `https` protocol prefix.
 The default protocol is `http`.
-See [user guide](/docs/user_guide.md#product_url-format) for detailed description of the `PRODUCT_URL` format.
+See [user guide]user_guide.md#product_url-format) for detailed description of the `PRODUCT_URL` format.
 
 3. View the results in your web browser
  http://localhost:8555/Default
@@ -156,7 +156,7 @@ For that use the `-i` parameter of the analyze command:
                         should be omitted from analysis. Please consult the
                         User guide on how a Skipfile should be laid out.
 ```
-For the skip file format see the [user guide](/docs/user_guide.md#skip-file).
+For the skip file format see the [user guide]user_guide.md#skip-file).
 
 ```
  CodeChecker analyze -b "make" -i ./skip.file" -o ./reports

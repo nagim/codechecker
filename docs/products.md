@@ -1,14 +1,14 @@
 Product management
 ==================
 
-![Web interface showing product list](/docs/images/products.png)
+![Web interface showing product list]images/products.png)
 
 The product system allows a single CodeChecker server to serve multiple
 separate result databases, named "products", under the same IP address and
 authentication domain.
 
 `CodeChecker server` takes database arguments to initialize a connection to a
-**configuration** database. (See the [User guide](/docs/user_guide.md) for
+**configuration** database. (See the [User guide]user_guide.md) for
 details.) This configuration database contains which products are managed by
 the server, and contain various other metadata.
 
@@ -20,7 +20,7 @@ Command-line tools that are used to access analysis data take an `--url
 PRODUCT_URL` parameter, which specifies the access protocol, server host,
 port, and the product's unique endpoint in the following format:
 `[http[s]://]localhost:8001/Default`, where `Default` is the product's
-endpoint. See the [User Guide](/docs/user_guide.md#product_url-format) for
+endpoint. See the [User Guide]user_guide.md#product_url-format) for
 further details.
 
 The Web application separates products based on their unique endpoint. The
@@ -48,7 +48,7 @@ as PostgreSQL is advanced usage, must be configured manually.
 
 # <a name="cmd"></a> Managing products through the command-line tool, `CodeChecker cmd`
 
-Please see the [User guide](/docs/user_guide.md) for overview on the `cmd`
+Please see the [User guide](user_guide.md) for overview on the `cmd`
 command.
 
 The `products` subcommand of `CodeChecker cmd` group the actions related to
@@ -57,7 +57,7 @@ product configuration. All these commands take a server URL (e.g.
 and not an individual product endpoint.
 
 Certain administrative actions regarding products can only be executed by
-[superusers](/docs/permissions.md), if the server has authentication turned on.
+[superusers](permissions.md), if the server has authentication turned on.
 
 ~~~~~~~~~~~~~~~~~~~~~
 usage: CodeChecker cmd products [-h] [--verbose {info,debug,debug_analyzer}]
@@ -190,10 +190,10 @@ optional arguments:
 # <a name="web-interface"></a> Managing products through the web interface
 
 Certain administrative actions regarding products can only be executed by
-[superusers](/docs/permissions.md) if the server is running with authentication
+[superusers](permissions.md) if the server is running with authentication
 turned on.
 
-!["Add new product" dialog](/docs/images/newproduct.png)
+!["Add new product" dialog](images/newproduct.png)
 
 After enabling the administrative actions in the top right corner, click
 *Add new product*, then fill the form presented. The values that need to be
@@ -202,7 +202,7 @@ filled here are the same as the arguments for `CodeChecker cmd products add`.
 If the product creation is successful, the window will disappear and the
 product will appear in the product list.
 
-![The added product appeared in the list](/docs/images/productconfigicons.png)
+![The added product appeared in the list](images/productconfigicons.png)
 
 Editing a product is done through the pencil icon, which is visible when
 administrative actions are enabled. This window lets you edit the product's

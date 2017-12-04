@@ -86,7 +86,7 @@ export PATH="$PWD/build/CodeChecker/bin:$PATH"
 Once the package is installed and the PostgreSQL server is running, a
 CodeChecker server can be started by specifying the **configuration**
 database's connection arguments. (Read more about the [`CodeChecker server`
-command](/docs/user_guide.md#7-server-mode).)
+command]user_guide.md#7-server-mode).)
 
 The `codechecker_config` database will contain server-specific configurations.
 
@@ -116,7 +116,7 @@ psql -c "GRANT ALL PRIVILEGES ON DATABASE default_product TO codechecker;"
 For a product to be set up by the server, an empty database with rights given
 must exist **in advance**. Once the database is created, a product can be
 added via `CodeChecker cmd products add`, or
-[via the Web interface](/docs/products.md#managing-products-through-the-web-interface).
+[via the Web interface]products.md#managing-products-through-the-web-interface).
 
 ~~~~~~{.sh}
 CodeChecker cmd products add Default --name "Default Product" \

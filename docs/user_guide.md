@@ -252,7 +252,7 @@ output arguments:
 
 Several subcommands, such as `store` and `cmd` need a connection specification
 on which server and for which *Product* (read more [about
-products](/docs/products.md)) an action, such as report storage or result
+products]products.md)) an action, such as report storage or result
 retrieving, should be done.
 
 This is done via the `PRODUCT_URL` where indicated in the subcommand, which
@@ -266,7 +266,7 @@ whether or not a more secure SSL/TLS-wrapped `https` protocol should be used.
 If omitted, the default value is `http`. The second part is the host and the
 port the server listens on. After a `/`, the unique endpoint of the product
 must be given, this is case-sensitive. This unique endpoint is configured and
-allocated when the [product is created](/docs/products.md), by the server's
+allocated when the [product is created]products.md), by the server's
 administrators. The product must exist and be properly configured before any
 normal operation could be done on it.
 

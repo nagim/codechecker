@@ -1,16 +1,16 @@
 Permission subsystem
 ====================
 
-To configure access demarcation between multiple [products](/docs/products.md),
+To configure access demarcation between multiple [products]products.md),
 CodeChecker has it's permission system. Each user can be assigned some
 permissions, and each action on the server requires a certain permission to be
 present - otherwise the action will fail.
 
 The username and group values that permissions can be delegated to are
-retrieved via [user credentials](/docs/authentication.md). **For the permission
+retrieved via [user credentials]authentication.md). **For the permission
 system to work, authentication must be enabled**, otherwise, the
 unauthenticated guest user will only have the
-[*default* permissions](/docs/permissions.md#default-value) given.
+[*default* permissions]permissions.md#default-value) given.
 
 Different *scopes* of CodeChecker use different permissions. Currently,
 permissions can be defined on the server level (system/global permission), or
@@ -57,7 +57,7 @@ will automatically **have the `SUPERUSER` permission**.
 
 ## <a name="managing-permissions"></a> Managing permissions
 
-![Global permission manager](/docs/images/permissions.png)
+![Global permission manager]images/permissions.png)
 
  * Server-wide permissions can be edited by clicking *Edit global permissions*.
  * Product-level permissions can be edited by clicking the edit icon for the
